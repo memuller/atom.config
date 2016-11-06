@@ -1,0 +1,18 @@
+"*":
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "terminal-plus"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    softWrap: true
+  "exception-reporting":
+    userId: "31cff278-29a4-424b-36fd-417c2e9afc6b"
+  "file-icons":
+    onChanges: true
+  "terminal-plus":
+    toggles:
+      autoClose: true
+  welcome:
+    showOnStartup: false

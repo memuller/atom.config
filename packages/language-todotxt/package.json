@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-116105-21696-ymifzw/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-116105-21696-ymifzw/package.tgz",
+        "spec": "/tmp/d-116105-21696-ymifzw/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-116105-21696-1ux4cw6"
+    ]
+  ],
+  "_from": "../d-116105-21696-ymifzw/package.tgz",
+  "_id": "language-todotxt@0.6.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/language-todotxt",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-116105-21696-ymifzw/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-116105-21696-ymifzw/package.tgz",
+    "spec": "/tmp/d-116105-21696-ymifzw/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-116105-21696-ymifzw/package.tgz",
+  "_shasum": "5e13a6e4f244601fa31d726c8106ab80b75e628c",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-116105-21696-ymifzw/package.tgz",
+  "_where": "/tmp/apm-install-dir-116105-21696-1ux4cw6",
+  "bugs": {
+    "url": "https://github.com/gerane/language-todotxt/issues"
+  },
+  "dependencies": {},
+  "description": "Syntax Highlighting for todo.txt",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/gerane/language-todotxt#readme",
+  "license": "BSD",
+  "name": "language-todotxt",
+  "optionalDependencies": {},
+  "readme": "# language-todotxt package\n\nAdds syntax highlighting to todo.txt files in atom.\n\nOriginally [converted](http://atom.io/docs/latest/converting-a-text-mate-bundle) from the [tmTodoTXT TextMate bundle](https://github.com/sideshowcoder/tmTodoTXT).\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerane/language-todotxt.git"
+  },
+  "version": "0.6.1"
+}
