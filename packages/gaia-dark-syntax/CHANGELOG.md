@@ -12,3 +12,6 @@
 - Refinements to JavaScript.
 - Refinements to Markdown.
 - Minor improvements to editor styles.
+
+## 1.1.1
+- Added macro highlighting for Rust. Thanks to [@maccoda](https://github.com/maccoda) for the PR.

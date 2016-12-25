@@ -24,42 +24,16 @@ mockRepoWithSubmodule.repo = {
 
 describe "Git-Plus git module", ->
   describe "git.getConfig", ->
-    args = ['config', '--get', 'user.name']
-
     describe "when a repo file path isn't specified", ->
-      it "spawns a command querying git for the given global setting", ->
-        spyOn(git, 'cmd').andReturn Promise.resolve 'akonwi'
-        waitsForPromise ->
-          git.getConfig('user.name')
-        runs ->
-          expect(git.cmd).toHaveBeenCalledWith args, cwd: Os.homedir()
+      it "calls ::getConfigValue on the given instance of GitRepository", ->
+        spyOn(repo, 'getConfigValue').andReturn 'value'
+        expect(git.getConfig(repo, 'user.name')).toBe 'value'
+        expect(repo.getConfigValue).toHaveBeenCalledWith 'user.name', repo.getWorkingDirectory()
 
-    describe "when a repo file path is specified", ->
-      it "checks for settings in that repo", ->
-        spyOn(git, 'cmd').andReturn Promise.resolve 'akonwi'
-        waitsForPromise ->
-          git.getConfig('user.name', repo.getWorkingDirectory())
-        runs ->
-          expect(git.cmd).toHaveBeenCalledWith args, cwd: repo.getWorkingDirectory()
-
-    describe "when the command fails without an error message", ->
-      it "resolves to ''", ->
-        spyOn(git, 'cmd').andReturn Promise.reject ''
-        waitsForPromise ->
-          git.getConfig('user.name', repo.getWorkingDirectory()).then (result) ->
-            expect(result).toEqual('')
-        runs ->
-          expect(git.cmd).toHaveBeenCalledWith args, cwd: repo.getWorkingDirectory()
-
-    describe "when the command fails with an error message", ->
-      it "rejects with the error message", ->
-        spyOn(git, 'cmd').andReturn Promise.reject 'getConfig error'
-        spyOn(notifier, 'addError')
-        waitsForPromise ->
-          git.getConfig('user.name', 'bad working dir').then (result) ->
-            fail "should have been rejected"
-          .catch (error) ->
-            expect(notifier.addError).toHaveBeenCalledWith 'getConfig error'
+    describe "when there is no value for a config key", ->
+      it "returns null", ->
+        spyOn(repo, 'getConfigValue').andReturn null
+        expect(git.getConfig(repo, 'user.name')).toBe null
 
   describe "git.getRepo", ->
     it "returns a promise resolving to repository", ->
@@ -241,21 +215,18 @@ describe "Git-Plus git module", ->
       git.status(repo).then -> expect(true).toBeTruthy()
 
   describe "git.refresh", ->
-    it "calls git.cmd with 'add' and '--refresh' arguments for each repo in project", ->
-      spyOn(git, 'cmd').andCallFake ->
-        args = git.cmd.mostRecentCall.args[0]
-        expect(args[0]).toBe 'add'
-        expect(args[1]).toBe '--refresh'
-      spyOn(repo, 'getWorkingDirectory').andCallFake ->
-        expect(repo.getWorkingDirectory.callCount).toBe 1
-      git.refresh()
+    describe "when no arguments are passed", ->
+      it "calls repo.refreshStatus for each repo in project", ->
+        spyOn(atom.project, 'getRepositories').andCallFake -> [ repo ]
+        spyOn(repo, 'refreshStatus')
+        git.refresh()
+        expect(repo.refreshStatus).toHaveBeenCalled()
 
-    it "calls repo.refreshStatus for each repo in project", ->
-      spyOn(atom.project, 'getRepositories').andCallFake -> [ repo ]
-      spyOn(repo, 'refreshStatus')
-      spyOn(git, 'cmd').andCallFake -> undefined
-      git.refresh()
-      expect(repo.refreshStatus.callCount).toBe 1
+    describe "when a GitRepository object is passed", ->
+      it "calls repo.refreshStatus for each repo in project", ->
+        spyOn(repo, 'refreshStatus')
+        git.refresh repo
+        expect(repo.refreshStatus).toHaveBeenCalled()
 
   describe "git.diff", ->
     it "calls git.cmd with ['diff', '-p', '-U1'] and the file path", ->

@@ -2,10 +2,10 @@ git = require './git'
 
 getCommands = ->
   GitBranch              = require './models/git-branch'
-  GitDeleteLocalBranch   = require './models/git-delete-local-branch.coffee'
-  GitDeleteRemoteBranch  = require './models/git-delete-remote-branch.coffee'
+  GitDeleteLocalBranch   = require './models/git-delete-local-branch'
+  GitDeleteRemoteBranch  = require './models/git-delete-remote-branch'
   GitCheckoutAllFiles    = require './models/git-checkout-all-files'
-  GitCheckoutCurrentFile = require './models/git-checkout-current-file'
+  GitCheckoutFile        = require './models/git-checkout-file'
   GitCherryPick          = require './models/git-cherry-pick'
   GitCommit              = require './models/git-commit'
   GitCommitAmend         = require './models/git-commit-amend'
@@ -13,7 +13,7 @@ getCommands = ->
   GitDifftool            = require './models/git-difftool'
   GitDiffAll             = require './models/git-diff-all'
   GitFetch               = require './models/git-fetch'
-  GitFetchPrune          = require './models/git-fetch-prune.coffee'
+  GitFetchPrune          = require './models/git-fetch-prune'
   GitInit                = require './models/git-init'
   GitLog                 = require './models/git-log'
   GitPull                = require './models/git-pull'
@@ -38,7 +38,7 @@ getCommands = ->
   git.getRepo()
     .then (repo) ->
       currentFile = repo.relativize(atom.workspace.getActiveTextEditor()?.getPath())
-      git.refresh()
+      git.refresh repo
       commands = []
       commands.push ['git-plus:add', 'Add', -> git.add(repo, file: currentFile)]
       commands.push ['git-plus:add-modified', 'Add Modified', -> git.add(repo, update: true)]
@@ -47,7 +47,7 @@ getCommands = ->
       commands.push ['git-plus:log-current-file', 'Log Current File', -> GitLog(repo, onlyCurrentFile: true)]
       commands.push ['git-plus:remove-current-file', 'Remove Current File', -> GitRemove(repo)]
       commands.push ['git-plus:checkout-all-files', 'Checkout All Files', -> GitCheckoutAllFiles(repo)]
-      commands.push ['git-plus:checkout-current-file', 'Checkout Current File', -> GitCheckoutCurrentFile(repo)]
+      commands.push ['git-plus:checkout-current-file', 'Checkout Current File', -> GitCheckoutFile(repo, file: currentFile)]
       commands.push ['git-plus:commit', 'Commit', -> GitCommit(repo)]
       commands.push ['git-plus:commit-all', 'Commit All', -> GitCommit(repo, stageChanges: true)]
       commands.push ['git-plus:commit-amend', 'Commit Amend', -> GitCommitAmend(repo)]
@@ -55,6 +55,7 @@ getCommands = ->
       commands.push ['git-plus:add-and-commit-and-push', 'Add And Commit And Push', -> git.add(repo, file: currentFile).then -> GitCommit(repo, andPush: true)]
       commands.push ['git-plus:add-all-and-commit', 'Add All And Commit', -> git.add(repo).then -> GitCommit(repo)]
       commands.push ['git-plus:add-all-commit-and-push', 'Add All, Commit And Push', -> git.add(repo).then -> GitCommit(repo, andPush: true)]
+      commands.push ['git-plus:commit-all-and-push', 'Commit All And Push', -> GitCommit(repo, stageChanges: true, andPush: true)]
       commands.push ['git-plus:checkout', 'Checkout', -> GitBranch.gitBranches(repo)]
       commands.push ['git-plus:checkout-remote', 'Checkout Remote', -> GitBranch.gitRemoteBranches(repo)]
       commands.push ['git-plus:new-branch', 'Checkout New Branch', -> GitBranch.newBranch(repo)]
@@ -67,7 +68,6 @@ getCommands = ->
       commands.push ['git-plus:fetch', 'Fetch', -> GitFetch(repo)]
       commands.push ['git-plus:fetch-prune', 'Fetch Prune', -> GitFetchPrune(repo)]
       commands.push ['git-plus:pull', 'Pull', -> GitPull(repo)]
-      commands.push ['git-plus:pull-using-rebase', 'Pull Using Rebase', -> GitPull(repo, rebase: true)]
       commands.push ['git-plus:push', 'Push', -> GitPush(repo)]
       commands.push ['git-plus:push-set-upstream', 'Push -u', -> GitPush(repo, setUpstream: true)]
       commands.push ['git-plus:remove', 'Remove', -> GitRemove(repo, showSelector: true)]
@@ -86,7 +86,7 @@ getCommands = ->
       commands.push ['git-plus:run', 'Run', -> new GitRun(repo)]
       commands.push ['git-plus:merge', 'Merge', -> GitMerge(repo)]
       commands.push ['git-plus:merge-remote', 'Merge Remote', -> GitMerge(repo, remote: true)]
-      commands.push ['git-plus:merge-no-fast-forward', 'Merge without fast-forward', -> GitMerge(repo, no_fast_forward: true)]
+      commands.push ['git-plus:merge-no-fast-forward', 'Merge without fast-forward', -> GitMerge(repo, noFastForward: true)]
       commands.push ['git-plus:rebase', 'Rebase', -> GitRebase(repo)]
       commands.push ['git-plus:git-open-changed-files', 'Open Changed Files', -> GitOpenChangedFiles(repo)]
 

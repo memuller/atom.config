@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-116103-12462-89urua/package.tgz",
+        "raw": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161124-8536-10snax8\\package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-116103-12462-89urua/package.tgz",
-        "spec": "/tmp/d-116103-12462-89urua/package.tgz",
+        "rawSpec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161124-8536-10snax8\\package.tgz",
+        "spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161124-8536-10snax8\\package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-116103-12462-2350c4"
+      "C:\\Users\\memuller\\AppData\\Local\\Temp\\apm-install-dir-1161124-8536-1ww37r1"
     ]
   ],
-  "_from": "../d-116103-12462-89urua/package.tgz",
-  "_id": "duotone-dark-earth-syntax@2.0.0",
+  "_from": "..\\d-1161124-8536-10snax8\\package.tgz",
+  "_id": "duotone-dark-earth-syntax@2.0.1",
   "_inCache": true,
   "_installable": true,
   "_location": "/duotone-dark-earth-syntax",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-116103-12462-89urua/package.tgz",
+    "raw": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161124-8536-10snax8\\package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-116103-12462-89urua/package.tgz",
-    "spec": "/tmp/d-116103-12462-89urua/package.tgz",
+    "rawSpec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161124-8536-10snax8\\package.tgz",
+    "spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161124-8536-10snax8\\package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-116103-12462-89urua/package.tgz",
-  "_shasum": "157c755976be2e0dca2409222b6b87ddf2f6a4ee",
+  "_resolved": "file:..\\d-1161124-8536-10snax8\\package.tgz",
+  "_shasum": "a33668a850a363b723de4af85a44886351a3f38e",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-116103-12462-89urua/package.tgz",
-  "_where": "/tmp/apm-install-dir-116103-12462-2350c4",
+  "_spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161124-8536-10snax8\\package.tgz",
+  "_where": "C:\\Users\\memuller\\AppData\\Local\\Temp\\apm-install-dir-1161124-8536-1ww37r1",
   "bugs": {
     "url": "https://github.com/simurai/duotone-dark-earth-syntax/issues"
   },
@@ -65,5 +65,5 @@
     "url": "git+https://github.com/simurai/duotone-dark-earth-syntax.git"
   },
   "theme": "syntax",
-  "version": "2.0.0"
+  "version": "2.0.1"
 }

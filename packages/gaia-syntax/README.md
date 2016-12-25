@@ -22,6 +22,6 @@ apm install gaia-syntax
 
 ## Further information
 
-Project page: [http://www.protesilaos.com/gaia](http://www.protesilaos.com/gaia)
+Project page: [https://protesilaos.com/gaia](https://protesilaos.com/gaia)
 
 Gaia dark version: [https://atom.io/themes/gaia-dark-syntax](https://atom.io/themes/gaia-dark-syntax)
