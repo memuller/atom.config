@@ -1,9 +1,11 @@
-* {
-  box-sizing: border-box;
+:root {
+  font-size: @font-size;
+  line-height: 1.65em;
 }
 
-html {
-  font-size: @font-size;
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased; // EDIT
 }
 
 atom-workspace {
@@ -19,7 +21,7 @@ status-bar {
   z-index: +1000;
 
   & > .flexbox-repaint-hack {
-    padding-top: 3px;
+    padding-top: 6px;
   }
 
   span {
@@ -31,9 +33,10 @@ status-bar {
   background: @app-background-color;
   border-color: transparent;
 }
-
 // Keyboard Shortcuts ----------------------------------------------------------
-kbd, .keystroke {
+
+.keystroke,
+kbd {
   .text(invert);
   font-size: @font-size;
   font-family: @font-family;
@@ -43,15 +46,15 @@ kbd, .keystroke {
   border: 0;
   border-radius: 2px;
 }
-
 // Close icons -----------------------------------------------------------------
+
 .close-icon::before,
 .icon-x::before,
 .icon.x::before {
   content: '✕' !important;
 }
-
 // Scrollbars ------------------------------------------------------------------
+
 .scrollbars-visible-always {
   /deep/::-webkit-scrollbar {
     width: 10px;
@@ -78,9 +81,9 @@ kbd, .keystroke {
     }
   }
 
-  atom-text-editor,
   atom-pane-container,
-  atom-panel-container.bottom {
+  atom-panel-container.bottom,
+  atom-text-editor {
     /deep/::-webkit-scrollbar-track {
       background: @base-background-color;
     }

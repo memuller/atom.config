@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-116103-12287-1n23t92/package.tgz",
+        "raw": "/tmp/d-11735-26635-fbbz7q/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-116103-12287-1n23t92/package.tgz",
-        "spec": "/tmp/d-116103-12287-1n23t92/package.tgz",
+        "rawSpec": "/tmp/d-11735-26635-fbbz7q/package.tgz",
+        "spec": "/tmp/d-11735-26635-fbbz7q/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-116103-12287-1gcs3d"
+      "/tmp/apm-install-dir-11735-26635-wb3svp"
     ]
   ],
-  "_from": "../d-116103-12287-1n23t92/package.tgz",
-  "_id": "monokai@0.18.0",
+  "_from": "../d-11735-26635-fbbz7q/package.tgz",
+  "_id": "monokai@0.22.0",
   "_inCache": true,
   "_installable": true,
   "_location": "/monokai",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-116103-12287-1n23t92/package.tgz",
+    "raw": "/tmp/d-11735-26635-fbbz7q/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-116103-12287-1n23t92/package.tgz",
-    "spec": "/tmp/d-116103-12287-1n23t92/package.tgz",
+    "rawSpec": "/tmp/d-11735-26635-fbbz7q/package.tgz",
+    "spec": "/tmp/d-11735-26635-fbbz7q/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-116103-12287-1n23t92/package.tgz",
-  "_shasum": "06b7839212da0716953ebabc85f5f449aeca4f16",
+  "_resolved": "file:../d-11735-26635-fbbz7q/package.tgz",
+  "_shasum": "c294088c9fe1c46d1ee61424dd4115d7974b001a",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-116103-12287-1n23t92/package.tgz",
-  "_where": "/tmp/apm-install-dir-116103-12287-1gcs3d",
+  "_spec": "/tmp/d-11735-26635-fbbz7q/package.tgz",
+  "_where": "/tmp/apm-install-dir-11735-26635-wb3svp",
   "bugs": {
     "url": "https://github.com/kevinsawicki/monokai/issues"
   },
@@ -43,7 +43,7 @@
   "description": "A monokai theme",
   "devDependencies": {},
   "engines": {
-    "atom": ">0.39.0"
+    "atom": ">=1.13.0"
   },
   "homepage": "https://github.com/kevinsawicki/monokai#readme",
   "license": "MIT",
@@ -57,5 +57,5 @@
     "url": "git+https://github.com/kevinsawicki/monokai.git"
   },
   "theme": "syntax",
-  "version": "0.18.0"
+  "version": "0.22.0"
 }

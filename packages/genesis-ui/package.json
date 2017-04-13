@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-116103-7738-hgcb05/package.tgz",
+        "raw": "/tmp/d-11735-26489-wvtmay/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-116103-7738-hgcb05/package.tgz",
-        "spec": "/tmp/d-116103-7738-hgcb05/package.tgz",
+        "rawSpec": "/tmp/d-11735-26489-wvtmay/package.tgz",
+        "spec": "/tmp/d-11735-26489-wvtmay/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-116103-7738-gzs9if"
+      "/tmp/apm-install-dir-11735-26489-dfag74"
     ]
   ],
-  "_from": "../d-116103-7738-hgcb05/package.tgz",
+  "_from": "../d-11735-26489-wvtmay/package.tgz",
   "_id": "genesis-ui@0.5.0",
   "_inCache": true,
   "_installable": true,
   "_location": "/genesis-ui",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-116103-7738-hgcb05/package.tgz",
+    "raw": "/tmp/d-11735-26489-wvtmay/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-116103-7738-hgcb05/package.tgz",
-    "spec": "/tmp/d-116103-7738-hgcb05/package.tgz",
+    "rawSpec": "/tmp/d-11735-26489-wvtmay/package.tgz",
+    "spec": "/tmp/d-11735-26489-wvtmay/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-116103-7738-hgcb05/package.tgz",
+  "_resolved": "file:../d-11735-26489-wvtmay/package.tgz",
   "_shasum": "cf238c3c1488d9fc328fd571a5fe79cd4df0cd23",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-116103-7738-hgcb05/package.tgz",
-  "_where": "/tmp/apm-install-dir-116103-7738-gzs9if",
+  "_spec": "/tmp/d-11735-26489-wvtmay/package.tgz",
+  "_where": "/tmp/apm-install-dir-11735-26489-dfag74",
   "bugs": {
     "url": "https://github.com/jmcalaway/atom-genesis-ui/issues"
   },

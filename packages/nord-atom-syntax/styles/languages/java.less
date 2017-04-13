@@ -5,7 +5,7 @@ project    nord-atom-syntax                                    +
 repository https://github.com/arcticicestudio/nord-atom-syntax +
 author     Arctic Ice Studio                                   +
 email      development@arcticicestudio.com                     +
-copyright  Copyright (C) 2016                                  +
+copyright  Copyright (C) 2017                                  +
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Supports Java, Scala and Java Properties.
@@ -29,28 +29,43 @@ Scala
 /*+------+
   + Java +
   +------+*/
-.source.java {
-  .keyword.operator.instanceof {
-    color: @syntax-color-keyword;
+.syntax--source.syntax--java {
+  .syntax--comment.syntax--block.syntax--javadoc {
+    .syntax--variable.syntax--parameter {
+      color: @syntax-color-function;
+    }
   }
 
-  .punctuation.bracket.angle {
+  .syntax--keyword {
+    &.syntax--operator.syntax--instanceof {
+      color: @syntax-color-keyword;
+    }
+
+    &.syntax--other.syntax--documentation.syntax--javadoc {
+      color: @syntax-color-java-javadoc-tag;
+    }
+  }
+
+  .syntax--punctuation.syntax--bracket.syntax--angle {
     color: @syntax-color-java-bracket-angle;
   }
 
-  .storage {
-    &.modifier.import {
-      color: @syntax-color-import;
+  .syntax--storage {
+    &.syntax--modifier {
+      &.syntax--import,
+      &.syntax--package {
+        color: @syntax-color-import;
+      }
     }
 
-    &.type {
+    &.syntax--type {
       color: @syntax-color-class;
 
-      &.annotation {
+      &.syntax--annotation {
         color: @syntax-color-annotation;
       }
 
-      &.primitive {
+      &.syntax--primitive {
         color: @syntax-color-keyword;
       }
     }
@@ -60,23 +75,23 @@ Scala
 /*+-------+
   + Scala +
   +-------+*/
-.source.scala {
-  .entity.name.package {
+.syntax--source.syntax--scala {
+  .syntax--entity.syntax--name.syntax--package {
     color: @syntax-color-class;
   }
 
-  .meta.import {
+  .syntax--meta.syntax--import {
     color: @syntax-color-class;
 
-    .variable {
+    .syntax--variable {
       color: @syntax-color-class;
     }
   }
 
-  .scala.type {
+  .syntax--scala.syntax--type {
     color: @syntax-color-class;
 
-    .class {
+    .syntax--class {
       color: @syntax-color-class;
     }
   }
@@ -85,11 +100,11 @@ Scala
 /*+-----------------+
   + Java Properties +
   +-----------------+*/
-.source.java-properties {
-  .meta.key-pair {
+.syntax--source.syntax--java-properties {
+  .syntax--meta.syntax--key-pair {
     color: @syntax-color-keyword;
 
-    & > .punctuation {
+    & > .syntax--punctuation {
       color: @syntax-color-punctuation;
     }
   }

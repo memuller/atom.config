@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-116103-10178-fcv9ga/package.tgz",
+        "raw": "/tmp/d-11735-26764-176wdka/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-116103-10178-fcv9ga/package.tgz",
-        "spec": "/tmp/d-116103-10178-fcv9ga/package.tgz",
+        "rawSpec": "/tmp/d-11735-26764-176wdka/package.tgz",
+        "spec": "/tmp/d-11735-26764-176wdka/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-116103-10178-jjd3bg"
+      "/tmp/apm-install-dir-11735-26764-101lp21"
     ]
   ],
-  "_from": "../d-116103-10178-fcv9ga/package.tgz",
+  "_from": "../d-11735-26764-176wdka/package.tgz",
   "_id": "terminal-plus@0.14.5",
   "_inCache": true,
   "_installable": true,
   "_location": "/terminal-plus",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-116103-10178-fcv9ga/package.tgz",
+    "raw": "/tmp/d-11735-26764-176wdka/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-116103-10178-fcv9ga/package.tgz",
-    "spec": "/tmp/d-116103-10178-fcv9ga/package.tgz",
+    "rawSpec": "/tmp/d-11735-26764-176wdka/package.tgz",
+    "spec": "/tmp/d-11735-26764-176wdka/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-116103-10178-fcv9ga/package.tgz",
+  "_resolved": "file:../d-11735-26764-176wdka/package.tgz",
   "_shasum": "f6fde68a4be3c007587d392e80f6363448396322",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-116103-10178-fcv9ga/package.tgz",
-  "_where": "/tmp/apm-install-dir-116103-10178-jjd3bg",
+  "_spec": "/tmp/d-11735-26764-176wdka/package.tgz",
+  "_where": "/tmp/apm-install-dir-11735-26764-101lp21",
   "author": {
     "name": "Jeremy Ebneyamin"
   },

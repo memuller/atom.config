@@ -2,50 +2,50 @@
   "_args": [
     [
       {
-        "raw": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161124-8536-10snax8\\package.tgz",
+        "raw": "/tmp/d-11735-26425-1adsa5q/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161124-8536-10snax8\\package.tgz",
-        "spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161124-8536-10snax8\\package.tgz",
+        "rawSpec": "/tmp/d-11735-26425-1adsa5q/package.tgz",
+        "spec": "/tmp/d-11735-26425-1adsa5q/package.tgz",
         "type": "local"
       },
-      "C:\\Users\\memuller\\AppData\\Local\\Temp\\apm-install-dir-1161124-8536-1ww37r1"
+      "/tmp/apm-install-dir-11735-26425-pog51b"
     ]
   ],
-  "_from": "..\\d-1161124-8536-10snax8\\package.tgz",
-  "_id": "duotone-dark-earth-syntax@2.0.1",
+  "_from": "../d-11735-26425-1adsa5q/package.tgz",
+  "_id": "duotone-dark-earth-syntax@2.1.0",
   "_inCache": true,
   "_installable": true,
   "_location": "/duotone-dark-earth-syntax",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161124-8536-10snax8\\package.tgz",
+    "raw": "/tmp/d-11735-26425-1adsa5q/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161124-8536-10snax8\\package.tgz",
-    "spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161124-8536-10snax8\\package.tgz",
+    "rawSpec": "/tmp/d-11735-26425-1adsa5q/package.tgz",
+    "spec": "/tmp/d-11735-26425-1adsa5q/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:..\\d-1161124-8536-10snax8\\package.tgz",
-  "_shasum": "a33668a850a363b723de4af85a44886351a3f38e",
+  "_resolved": "file:../d-11735-26425-1adsa5q/package.tgz",
+  "_shasum": "53f5242b49191bc9e80100de05c50d1c241bb87e",
   "_shrinkwrap": null,
-  "_spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161124-8536-10snax8\\package.tgz",
-  "_where": "C:\\Users\\memuller\\AppData\\Local\\Temp\\apm-install-dir-1161124-8536-1ww37r1",
+  "_spec": "/tmp/d-11735-26425-1adsa5q/package.tgz",
+  "_where": "/tmp/apm-install-dir-11735-26425-pog51b",
   "bugs": {
     "url": "https://github.com/simurai/duotone-dark-earth-syntax/issues"
   },
   "dependencies": {
-    "duotone-syntax": "^2.0.0"
+    "duotone-syntax": "^2.1.0"
   },
   "description": "A dark brown-orange DuoTone syntax theme",
   "devDependencies": {},
   "engines": {
-    "atom": ">1.0.0"
+    "atom": ">=1.13.0 <2.0.0"
   },
   "homepage": "https://github.com/simurai/duotone-dark-earth-syntax#readme",
   "keywords": [
@@ -65,5 +65,5 @@
     "url": "git+https://github.com/simurai/duotone-dark-earth-syntax.git"
   },
   "theme": "syntax",
-  "version": "2.0.1"
+  "version": "2.1.0"
 }

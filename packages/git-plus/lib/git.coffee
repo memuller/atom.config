@@ -1,5 +1,5 @@
 Os = require 'os'
-{BufferedProcess} = require 'atom'
+{BufferedProcess, Directory} = require 'atom'
 
 RepoListView = require './views/repo-list-view'
 notifier = require './notifier'
@@ -10,11 +10,11 @@ gitUntrackedFiles = (repo, dataUnstaged=[]) ->
   .then (data) ->
     dataUnstaged.concat(_prettifyUntracked(data))
 
-_prettify = (data) ->
+_prettify = (data, {staged}={}) ->
   return [] if data is ''
   data = data.split(/\0/)[...-1]
   [] = for mode, i in data by 2
-    {mode, path: data[i+1] }
+    {mode, staged, path: data[i+1]}
 
 _prettifyUntracked = (data) ->
   return [] if data is ''
@@ -46,7 +46,7 @@ module.exports = git =
       output = ''
       args = ['-c', 'color.ui=always'].concat(args) if color
       process = new BufferedProcess
-        command: atom.config.get('git-plus.gitPath') ? 'git'
+        command: atom.config.get('git-plus.general.gitPath') ? 'git'
         args: args
         options: options
         stdout: (data) -> output += data.toString()
@@ -84,11 +84,11 @@ module.exports = git =
     git.cmd(['diff', '-p', '-U1', path], cwd: repo.getWorkingDirectory())
     .then (data) -> _prettifyDiff(data)
 
-  stagedFiles: (repo, stdout) ->
+  stagedFiles: (repo) ->
     args = ['diff-index', '--cached', 'HEAD', '--name-status', '-z']
     git.cmd(args, cwd: repo.getWorkingDirectory())
     .then (data) ->
-      _prettify data
+      _prettify data, staged: true
     .catch (error) ->
       if error.includes "ambiguous argument 'HEAD'"
         Promise.resolve [1]
@@ -101,9 +101,9 @@ module.exports = git =
     git.cmd(args, cwd: repo.getWorkingDirectory())
     .then (data) ->
       if showUntracked
-        gitUntrackedFiles(repo, _prettify(data))
+        gitUntrackedFiles(repo, _prettify(data, staged: false))
       else
-        _prettify(data)
+        _prettify(data, staged: false)
 
   add: (repo, {file, update}={}) ->
     args = ['add']
@@ -114,6 +114,11 @@ module.exports = git =
       if output isnt false
         notifier.addSuccess "Added #{file ? 'all files'}"
     .catch (msg) -> notifier.addError msg
+
+  getAllRepos: ->
+    {project} = atom
+    Promise.all(project.getDirectories()
+      .map(project.repositoryForDirectory.bind(project)))
 
   getRepo: ->
     new Promise (resolve, reject) ->
@@ -132,17 +137,15 @@ module.exports = git =
       Promise.reject "No file to find repository for"
     else
       new Promise (resolve, reject) ->
-        project = atom.project
-        directory = project.getDirectories().filter((d) -> d.contains(path) or d.getPath() is path)[0]
-        if directory?
-          project.repositoryForDirectory(directory)
-          .then (repo) ->
-            submodule = repo.repo.submoduleForPath(path)
-            if submodule? then resolve(submodule) else resolve(repo)
-          .catch (e) ->
-            reject(e)
-        else
-          reject "no current file"
+        repoPromises =
+          atom.project.getDirectories()
+          .map(atom.project.repositoryForDirectory.bind(atom.project))
+
+        Promise.all(repoPromises).then (repos) ->
+          repos.forEach (repo) ->
+            if repo? and (new Directory(repo.getWorkingDirectory())).contains path
+              submodule = repo?.repo.submoduleForPath(path)
+              if submodule? then resolve(submodule) else resolve(repo)
 
   getSubmodule: (path) ->
     path ?= atom.workspace.getActiveTextEditor()?.getPath()

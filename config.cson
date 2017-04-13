@@ -1,18 +1,49 @@
 "*":
+  "atom-material-ui":
+    colors:
+      abaseColor: "#d13438"
+      accentColor: "#cefbfa"
+      predefinedColor: "Red"
+    fonts: {}
+    tabs:
+      compactTabs: true
+      noTabMinWidth: true
+    treeView:
+      blendTabs: true
+      compactList: true
+    ui: {}
+  "config-import-export":
+    defaultPath:
+      darwin: ""
+      freebsd: ""
+      linux: "/home/memuller/AtomBackups"
+      sunos: ""
+      win32: ""
   core:
     autoHideMenuBar: true
     disabledPackages: [
       "terminal-plus"
     ]
     telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "seti-syntax"
+    ]
   editor:
+    fontFamily: "Fira Code"
     softWrap: true
   "exception-reporting":
     userId: "31cff278-29a4-424b-36fd-417c2e9afc6b"
-  "file-icons":
-    onChanges: true
+  "file-icons": {}
+  "git-plus":
+    general:
+      _analyticsUserId: "3ae3e266-0098-4e21-a9b6-fc62f1113e00"
   pigments:
     notifyReloads: false
+  "seti-ui":
+    compactView: true
+    fileIcons: false
+    themeColor: "Red"
   "terminal-plus":
     toggles:
       autoClose: true

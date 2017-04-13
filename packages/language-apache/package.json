@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-116104-9900-lte77s/package.tgz",
+        "raw": "/tmp/d-11735-26546-3bsqs9/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-116104-9900-lte77s/package.tgz",
-        "spec": "/tmp/d-116104-9900-lte77s/package.tgz",
+        "rawSpec": "/tmp/d-11735-26546-3bsqs9/package.tgz",
+        "spec": "/tmp/d-11735-26546-3bsqs9/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-116104-9900-1ldni4s"
+      "/tmp/apm-install-dir-11735-26546-190qrlr"
     ]
   ],
-  "_from": "../d-116104-9900-lte77s/package.tgz",
+  "_from": "../d-11735-26546-3bsqs9/package.tgz",
   "_id": "language-apache@1.7.0",
   "_inCache": true,
   "_installable": true,
   "_location": "/language-apache",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-116104-9900-lte77s/package.tgz",
+    "raw": "/tmp/d-11735-26546-3bsqs9/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-116104-9900-lte77s/package.tgz",
-    "spec": "/tmp/d-116104-9900-lte77s/package.tgz",
+    "rawSpec": "/tmp/d-11735-26546-3bsqs9/package.tgz",
+    "spec": "/tmp/d-11735-26546-3bsqs9/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-116104-9900-lte77s/package.tgz",
+  "_resolved": "file:../d-11735-26546-3bsqs9/package.tgz",
   "_shasum": "a6e6a2ac4e2a785a12b8ddf887920bf6ee774ffa",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-116104-9900-lte77s/package.tgz",
-  "_where": "/tmp/apm-install-dir-116104-9900-1ldni4s",
+  "_spec": "/tmp/d-11735-26546-3bsqs9/package.tgz",
+  "_where": "/tmp/apm-install-dir-11735-26546-190qrlr",
   "bugs": {
     "url": "https://github.com/jacobbednarz/atom-language-apache/issues"
   },

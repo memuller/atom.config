@@ -1,0 +1,65 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117312-22018-162bwv5/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117312-22018-162bwv5/package.tgz",
+        "spec": "/tmp/d-117312-22018-162bwv5/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117312-22018-l4a56n"
+    ]
+  ],
+  "_from": "../d-117312-22018-162bwv5/package.tgz",
+  "_id": "gloom@0.4.13",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/gloom",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117312-22018-162bwv5/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117312-22018-162bwv5/package.tgz",
+    "spec": "/tmp/d-117312-22018-162bwv5/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117312-22018-162bwv5/package.tgz",
+  "_shasum": "0c7f4519947a1698a4007b3cf0dceac08ede2b8f",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117312-22018-162bwv5/package.tgz",
+  "_where": "/tmp/apm-install-dir-117312-22018-l4a56n",
+  "bugs": {
+    "url": "https://github.com/hejrobin/gloom/issues"
+  },
+  "dependencies": {},
+  "description": "A dark and gloomy pastel color syntax theme for Atom.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "homepage": "https://github.com/hejrobin/gloom#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "gloom"
+  ],
+  "license": "MIT",
+  "name": "gloom",
+  "optionalDependencies": {},
+  "readme": "# gloom\n\nA dark and gloomy pastel color syntax theme for Atom.\n\n## Requirements\n* Atom Editor version 1.13 or newer\n\n![Preview](https://raw.githubusercontent.com/hejrobin/gloom/master/screenshot.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hejrobin/gloom.git"
+  },
+  "theme": "syntax",
+  "version": "0.4.13"
+}

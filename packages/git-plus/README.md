@@ -22,9 +22,12 @@ If you are on a Windows machine, I recommend checking out [this thread](https://
 
 ### Push/Pull/Fetch notifications
 Notifications will appear in a console output above the status bar.
-This view can be toggled by clicking the pin icon in the bottom right of the status bar.
+This view can be toggled by clicking the 'git+' icon in the bottom right of the status bar.
 
-![screenshot](https://github.com/akonwi/git-plus/raw/master/pin.png)
+![screenshot](https://dl.dropboxusercontent.com/s/oe3x8wyt6lnmbv7/git%2B.png)
+
+### Auto-Fetch
+Keeps your local repo bang up to date by automatically fetching from all remotes in the background every minute by default. But this can be set to any interval up to an hour, or disabled if you prefer. A notification can also be set to keep you informed.
 
 ### Commands
 _Commands are accessible for keybindings by dasherizing the command title._
@@ -32,7 +35,7 @@ _Commands are accessible for keybindings by dasherizing the command title._
 
 > Git Add All Commit And Push == `git-plus:add-all-commit-and-push`
 
-  __Note: This list is not exhaustive. And if what you want isn't a feature, You can use `Git Run` and enter the command__
+  __Note: The following list of commands is not exhaustive. If what you want isn't a feature, you can use `Git Run` and enter the command.__
 
 | Command | Effect | Default key binding |
 |----------|--------|------------------
@@ -50,6 +53,8 @@ _Commands are accessible for keybindings by dasherizing the command title._
 | `Git Checkout `*`[ref]`* | Change to another ref (branch or tag). | |
 | `Git Checkout New branch` | Create a new branch. | |
 | `Git Diff [All]` | Show the diff for the current file, or all files. The diff can either be against the staged or un-staged tree, as selected in the options. | |
+| `Git Diff Branches` | Show the diff for the current branch all files against another branch. | |
+| `Git Diff Branche Files` | Show the diff for the current branch file against another branch version. | |
 | `Git` *`[Push⎮Pull]`* | Push to or pull from a remote repo. If you have multiple remote repos, you can choose which to push to or pull from. | |
 | `Git Remove [current file]` | `git rm` the current file or open an selector to select the files to remove. You can select multiple files at once. | |
 | `Git Log [Current File]` | Show the commit history [for the current file] and show display the selected commit. | |
@@ -57,9 +62,29 @@ _Commands are accessible for keybindings by dasherizing the command title._
 | `Git Open Changed Files` | Open tabs with all added, modified or renamed files. | |
 | `Git Tags` | Operate on tags individually. There are options to add, show, push, checkout, verify, and delete. | |
 
-### Commit window
+### Commit Window
 To change where the commit window appears go to settings and find
 ![screenshot](http://imgur.com/cdc7M5p.png)
+
+### Experimental Features
+If you would like to use experimental features, enable them in the package settings.
+* Custom Commands
+  > If enabled, you can define your own commands in your atom `init.coffee` or `init.js` file. These commands will appear in both the atom command palette as well as the Git-Plus command palette. Just like any other commands, you can define keybindings for them as well.
+
+  > Example command for undoing the last commit:
+  ``` coffeescript
+  # In init.coffee
+  atom.packages.onDidActivateInitialPackages (p) ->
+  if gitPlus = atom.packages.getActivePackage('git-plus')?.mainModule.provideService()
+    gitPlus.registerCommand 'atom-text-editor', 'custom-git-commands:undo-last-commit', ->
+      gitPlus.getRepo() # If there are multiple repos in the project, you will be prompted to select which to use
+      .then (repo) -> gitPlus.run repo, 'reset HEAD~1'
+  ```
+  > The name of the command in the Git-plus palette will be the undasherized version of what you provided -> 'Undo Last Commit'.
+
+  > *Please beware of giving your commands the same name(undo-last-commit) as existing commands. They will appear as duplicates in the Git-plus palette.*
+* Stage Files Beta
+  > When enabled, the 'Unstage Files' and 'Stage Files' commands will be merged into one view where the staged status of multiple files can be toggled.
 
 ## Contributing
 

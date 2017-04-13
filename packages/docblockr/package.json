@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161124-8224-17o64va\\package.tgz",
+        "raw": "/tmp/d-11735-26414-1iwvxrj/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161124-8224-17o64va\\package.tgz",
-        "spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161124-8224-17o64va\\package.tgz",
+        "rawSpec": "/tmp/d-11735-26414-1iwvxrj/package.tgz",
+        "spec": "/tmp/d-11735-26414-1iwvxrj/package.tgz",
         "type": "local"
       },
-      "C:\\Users\\memuller\\AppData\\Local\\Temp\\apm-install-dir-1161124-8224-pnk7mp"
+      "/tmp/apm-install-dir-11735-26414-1yverrj"
     ]
   ],
-  "_from": "..\\d-1161124-8224-17o64va\\package.tgz",
-  "_id": "docblockr@0.9.1",
+  "_from": "../d-11735-26414-1iwvxrj/package.tgz",
+  "_id": "docblockr@0.9.4",
   "_inCache": true,
   "_installable": true,
   "_location": "/docblockr",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161124-8224-17o64va\\package.tgz",
+    "raw": "/tmp/d-11735-26414-1iwvxrj/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161124-8224-17o64va\\package.tgz",
-    "spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161124-8224-17o64va\\package.tgz",
+    "rawSpec": "/tmp/d-11735-26414-1iwvxrj/package.tgz",
+    "spec": "/tmp/d-11735-26414-1iwvxrj/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:..\\d-1161124-8224-17o64va\\package.tgz",
-  "_shasum": "000e28a066d97d77b08cd9a1768fff4afb4ddde5",
+  "_resolved": "file:../d-11735-26414-1iwvxrj/package.tgz",
+  "_shasum": "a20a576e8dd6904d8484e1cb6ebb31e728c05693",
   "_shrinkwrap": null,
-  "_spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161124-8224-17o64va\\package.tgz",
-  "_where": "C:\\Users\\memuller\\AppData\\Local\\Temp\\apm-install-dir-1161124-8224-pnk7mp",
+  "_spec": "/tmp/d-11735-26414-1iwvxrj/package.tgz",
+  "_where": "/tmp/apm-install-dir-11735-26414-1yverrj",
   "atomTestRunner": "./spec/runner",
   "bugs": {
     "url": "https://github.com/nikhilkalige/docblockr/issues"
@@ -71,5 +71,5 @@
   "scripts": {
     "test": "cd ~/.atom/packages; atom --test docblockr/spec"
   },
-  "version": "0.9.1"
+  "version": "0.9.4"
 }

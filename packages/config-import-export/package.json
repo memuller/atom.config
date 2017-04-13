@@ -1,0 +1,70 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-11735-26401-o388vy/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-11735-26401-o388vy/package.tgz",
+        "spec": "/tmp/d-11735-26401-o388vy/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-11735-26401-1kt24el"
+    ]
+  ],
+  "_from": "../d-11735-26401-o388vy/package.tgz",
+  "_id": "config-import-export@0.3.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/config-import-export",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-11735-26401-o388vy/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-11735-26401-o388vy/package.tgz",
+    "spec": "/tmp/d-11735-26401-o388vy/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11735-26401-o388vy/package.tgz",
+  "_shasum": "62c8396441380a63869ad916b6ac4f7df07b6c2b",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-11735-26401-o388vy/package.tgz",
+  "_where": "/tmp/apm-install-dir-11735-26401-1kt24el",
+  "activationCommands": {
+    "atom-workspace": [
+      "config-import-export:import",
+      "config-import-export:export"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/dbenson24/config-import-export/issues"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "latest",
+    "fs-plus": "^2.2.0"
+  },
+  "description": "This package lets you export or import your Atom configuration.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/dbenson24/config-import-export#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/config-import-export",
+  "name": "config-import-export",
+  "optionalDependencies": {},
+  "readme": "# Config Import Export\n\nThis package allows you to save the configuration of the Atom text editor so\nthat you can restore it at a later date.\n\nYou can specify a name and location for the backups to be saved, currently you\ncan only import backups from files in HOMEDIRECTORY/AtomBackups/ which is also\nthe default location for all backups to be saved to.\n\n![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbenson24/config-import-export.git"
+  },
+  "version": "0.3.1"
+}

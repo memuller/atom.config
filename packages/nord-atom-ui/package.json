@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161121-1064-im8oky\\package.tgz",
+        "raw": "/tmp/d-11735-26657-ejqmsc/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161121-1064-im8oky\\package.tgz",
-        "spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161121-1064-im8oky\\package.tgz",
+        "rawSpec": "/tmp/d-11735-26657-ejqmsc/package.tgz",
+        "spec": "/tmp/d-11735-26657-ejqmsc/package.tgz",
         "type": "local"
       },
-      "C:\\Users\\memuller\\AppData\\Local\\Temp\\apm-install-dir-1161121-1064-1sscbhj"
+      "/tmp/apm-install-dir-11735-26657-1oanvab"
     ]
   ],
-  "_from": "..\\d-1161121-1064-im8oky\\package.tgz",
-  "_id": "nord-atom-ui@0.9.0",
+  "_from": "../d-11735-26657-ejqmsc/package.tgz",
+  "_id": "nord-atom-ui@0.11.0",
   "_inCache": true,
   "_installable": true,
   "_location": "/nord-atom-ui",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161121-1064-im8oky\\package.tgz",
+    "raw": "/tmp/d-11735-26657-ejqmsc/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161121-1064-im8oky\\package.tgz",
-    "spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161121-1064-im8oky\\package.tgz",
+    "rawSpec": "/tmp/d-11735-26657-ejqmsc/package.tgz",
+    "spec": "/tmp/d-11735-26657-ejqmsc/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:..\\d-1161121-1064-im8oky\\package.tgz",
-  "_shasum": "870129ed4ac23a8004f732f8738b829a2104a05e",
+  "_resolved": "file:../d-11735-26657-ejqmsc/package.tgz",
+  "_shasum": "0a2ecea657ce298b4460a29321450d3de51fb7f5",
   "_shrinkwrap": null,
-  "_spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161121-1064-im8oky\\package.tgz",
-  "_where": "C:\\Users\\memuller\\AppData\\Local\\Temp\\apm-install-dir-1161121-1064-1sscbhj",
+  "_spec": "/tmp/d-11735-26657-ejqmsc/package.tgz",
+  "_where": "/tmp/apm-install-dir-11735-26657-1oanvab",
   "author": {
     "name": "Arctic Ice Studio",
     "email": "development@arcticicestudio.com"
@@ -58,10 +58,10 @@
     }
   },
   "dependencies": {},
-  "description": "A arctic, north-bluish clean and elegant minimal Atom UI.",
+  "description": "An arctic, north-bluish clean and elegant minimal Atom UI.",
   "devDependencies": {},
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.13.0 <2.0.0"
   },
   "homepage": "https://github.com/arcticicestudio/nord-atom-ui",
   "keywords": [
@@ -77,12 +77,12 @@
   "main": "./lib/main",
   "name": "nord-atom-ui",
   "optionalDependencies": {},
-  "readme": "<p align=\"center\"><img src=\"https://cdn.rawgit.com/arcticicestudio/nord-atom-ui/develop/assets/nord-atom-ui-banner.svg\"/></p>\n\n<p align=\"center\"><img src=\"https://cdn.travis-ci.org/images/favicon-c566132d45ab1a9bcae64d8d90e4378a.svg\" width=24 height=24/> <a href=\"https://travis-ci.org/arcticicestudio/nord-atom-ui\"><img src=\"https://img.shields.io/travis/arcticicestudio/nord-atom-ui/develop.svg\"/></a> <img src=\"https://circleci.com/favicon.ico\" width=24 height=24/> <a href=\"https://circleci.com/gh/arcticicestudio/nord-atom-ui\"><img src=\"https://circleci.com/gh/arcticicestudio/nord-atom-ui.svg?style=shield&circle-token=49d495671d604d752f1f1be8da675e3150dbdc88\"/></a> <img src=\"https://assets-cdn.github.com/favicon.ico\" width=24 height=24/> <a href=\"https://github.com/arcticicestudio/nord-atom-ui/releases/latest\"><img src=\"https://img.shields.io/github/release/arcticicestudio/nord-atom-ui.svg\"/></a> <a href=\"https://github.com/arcticicestudio/nord/releases/tag/v0.1.0\"><img src=\"https://img.shields.io/badge/Nord-v0.1.0-blue.svg\"/></a> <img src=\"https://atom.io/favicon.ico\" width=24 height=24/> <a href=\"https://atom.io/themes/nord-atom-ui\"><img src=\"https://img.shields.io/apm/v/nord-atom-ui.svg\"/></a> <a href=\"https://atom.io/themes/nord-atom-ui\"><img src=\"https://img.shields.io/apm/dm/nord-atom-ui.svg\"/></a></p>\n\n<p align=\"center\">A arctic, north-bluish clean and elegant minimal Atom UI.</p>\n\n<p align=\"center\">Designed for a optimized fluent and clear workflow.<br>\nBased on the <a href=\"https://github.com/arcticicestudio/nord\">Nord</a> color palette.<br>\nFits the <a href=\"https://atom.io/themes/nord-atom-syntax\">nord-atom-syntax</a> theme.</p>\n\n![][scrot-top]\n> Icons provided by [file-icons](https://atom.io/packages/file-icons), minimap by [minimap](https://atom.io/packages/minimap).\n\n## Getting started\n### Installation\n**<img src=\"https://atom.io/favicon.ico\" width=16 height=16/> [apm](https://github.com/atom/apm)**  \n```shell\napm install nord-atom-ui\n```\n\n**<img src=\"https://atom.io/favicon.ico\" width=16 height=16/> [Atom](https://atom.io)**  \n  1. Open *Settings > Install*\n  2. Set the filter to *Themes*\n  3. Search for `nord-atom-ui` and install\n\n**Activation**\n  1. Open *Settings > Themes*\n  2. Select `Nord Atom` from the *UI Theme* drop-down menu\n\n## Features\n<p align=\"center\">Floating modal overlays with a big font type.<br/><img src=\"https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrot-feature-modal-overlay.png\"/><br/>Smooth, non-obtrusive transitions for UI components.<br/><img src=\"https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-smooth-transitions-components.gif\"/><br/>Optimized tab layout by using the full editor width.<br/><img src=\"https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-full-width-tabs.gif\"/><br/>Flat, colored dirty state indicator.<br/><img src=\"https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-tab-dirty-state.gif\"/><br/></p>\n\n## Package Support\nThis theme contains optimized styles to achieve a consistent and uniform UI experience.   \nDetailed descriptions for supported packages can be found in the [project wiki](https://github.com/arcticicestudio/nord-atom-ui/wiki/Package-Support).\n\n## Development\n[![](https://img.shields.io/badge/Changelog-0.9.0-blue.svg)](https://github.com/arcticicestudio/nord-atom-ui/blob/v0.9.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-blue.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-blue.svg)](https://github.com/arcticicestudio/arcver)\n\n### Contribution\nPlease report issues/bugs, feature requests and suggestions for improvements to the [issue tracker](https://github.com/arcticicestudio/nord-atom-ui/issues).\n\n<p align=\"center\"><img src=\"https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-footer-mountains.svg\" /></p>\n\n<p align=\"center\"> <img src=\"http://arcticicestudio.com/favicon.ico\" width=16 height=16/> Copyright &copy; 2016 Arctic Ice Studio</p>\n\n<p align=\"center\"><a href=\"https://github.com/arcticicestudio/nord-atom-ui/blob/develop/LICENSE.md\"><img src=\"https://img.shields.io/badge/License-MIT-blue.svg\"/></a></p>\n\n[scrot-top]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrot-top.png\n",
+  "readme": "<p align=\"center\"><img src=\"https://cdn.rawgit.com/arcticicestudio/nord-atom-ui/develop/assets/nord-atom-ui-banner.svg\"/></p>\n\n<p align=\"center\"><img src=\"https://cdn.travis-ci.org/images/favicon-c566132d45ab1a9bcae64d8d90e4378a.svg\" width=24 height=24/> <a href=\"https://travis-ci.org/arcticicestudio/nord-atom-ui\"><img src=\"https://img.shields.io/travis/arcticicestudio/nord-atom-ui/develop.svg\"/></a> <img src=\"https://circleci.com/favicon.ico\" width=24 height=24/> <a href=\"https://circleci.com/gh/arcticicestudio/nord-atom-ui\"><img src=\"https://circleci.com/gh/arcticicestudio/nord-atom-ui.svg?style=shield&circle-token=49d495671d604d752f1f1be8da675e3150dbdc88\"/></a> <img src=\"https://assets-cdn.github.com/favicon.ico\" width=24 height=24/> <a href=\"https://github.com/arcticicestudio/nord-atom-ui/releases/latest\"><img src=\"https://img.shields.io/github/release/arcticicestudio/nord-atom-ui.svg\"/></a> <a href=\"https://github.com/arcticicestudio/nord/releases/tag/v0.2.0\"><img src=\"https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg\"/></a> <img src=\"https://atom.io/favicon.ico\" width=24 height=24/> <a href=\"https://github.com/atom/atom/releases/tag/v1.13.0\"><img src=\"https://img.shields.io/badge/Atom->=v1.13.0-green.svg\"/></a> <a href=\"https://atom.io/themes/nord-atom-ui\"><img src=\"https://img.shields.io/apm/v/nord-atom-ui.svg\"/></a> <a href=\"https://atom.io/themes/nord-atom-ui\"><img src=\"https://img.shields.io/apm/dm/nord-atom-ui.svg\"/></a></p>\n\n<p align=\"center\">An arctic, north-bluish clean and elegant minimal Atom UI.</p>\n\n<p align=\"center\">Designed for a optimized fluent and clear workflow.<br>\nBased on the <a href=\"https://github.com/arcticicestudio/nord\">Nord</a> color palette.<br>\nFits the <a href=\"https://atom.io/themes/nord-atom-syntax\">nord-atom-syntax</a> theme.</p>\n\n![][scrot-top]\n> Icons provided by [file-icons](https://atom.io/packages/file-icons), minimap by [minimap](https://atom.io/packages/minimap).\n\n## Getting started\n### Installation\n**<img src=\"https://atom.io/favicon.ico\" width=16 height=16/> [apm](https://github.com/atom/apm)**  \n```shell\napm install nord-atom-ui\n```\n\n**<img src=\"https://atom.io/favicon.ico\" width=16 height=16/> [Atom](https://atom.io)**  \n  1. Open *Settings > Install*\n  2. Set the filter to *Themes*\n  3. Search for `nord-atom-ui` and install\n\n**Activation**\n  1. Open *Settings > Themes*\n  2. Select `Nord Atom` from the *UI Theme* drop-down menu\n\n## Features\n<p align=\"center\">Floating modal overlays with a big font type.<br/><img src=\"https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrot-feature-modal-overlay.png\"/><br/>Smooth, non-obtrusive transitions for UI components.<br/><img src=\"https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-smooth-transitions-components.gif\"/><br/>Optimized tab layout by using the full editor width.<br/><img src=\"https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-full-width-tabs.gif\"/><br/>Flat, colored dirty state indicator.<br/><img src=\"https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-tab-dirty-state.gif\"/><br/></p>\n\n## Package Support\nThis theme contains optimized styles to achieve a consistent and uniform UI experience.   \nDetailed descriptions for supported packages can be found in the [project wiki](https://github.com/arcticicestudio/nord-atom-ui/wiki/Package-Support).\n\n## Development\n[![](https://img.shields.io/badge/Changelog-0.11.0-81A1C1.svg)](https://github.com/arcticicestudio/nord-atom-ui/blob/v0.11.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-81A1C1.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-81A1C1.svg)](https://github.com/arcticicestudio/arcver)\n\n### Contribution\nPlease report issues/bugs, feature requests and suggestions for improvements to the [issue tracker](https://github.com/arcticicestudio/nord-atom-ui/issues).\n\n<p align=\"center\"><img src=\"https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-footer-mountains.svg\" /></p>\n\n<p align=\"center\"> <img src=\"http://arcticicestudio.com/favicon.ico\" width=16 height=16/> Copyright &copy; 2016 Arctic Ice Studio</p>\n\n<p align=\"center\"><a href=\"https://github.com/arcticicestudio/nord-atom-ui/blob/develop/LICENSE.md\"><img src=\"https://img.shields.io/badge/License-MIT-5E81AC.svg\"/></a></p>\n\n[scrot-top]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrot-top.png\n",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arcticicestudio/nord-atom-ui.git"
   },
   "theme": "ui",
-  "version": "0.9.0"
+  "version": "0.11.0"
 }

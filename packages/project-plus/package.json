@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-116103-10178-rfmlzx/package.tgz",
+        "raw": "/tmp/d-11735-26702-1owskha/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-116103-10178-rfmlzx/package.tgz",
-        "spec": "/tmp/d-116103-10178-rfmlzx/package.tgz",
+        "rawSpec": "/tmp/d-11735-26702-1owskha/package.tgz",
+        "spec": "/tmp/d-11735-26702-1owskha/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-116103-10178-14ijwrr"
+      "/tmp/apm-install-dir-11735-26702-74hdos"
     ]
   ],
-  "_from": "../d-116103-10178-rfmlzx/package.tgz",
+  "_from": "../d-11735-26702-1owskha/package.tgz",
   "_id": "project-plus@0.9.0",
   "_inCache": true,
   "_installable": true,
   "_location": "/project-plus",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-116103-10178-rfmlzx/package.tgz",
+    "raw": "/tmp/d-11735-26702-1owskha/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-116103-10178-rfmlzx/package.tgz",
-    "spec": "/tmp/d-116103-10178-rfmlzx/package.tgz",
+    "rawSpec": "/tmp/d-11735-26702-1owskha/package.tgz",
+    "spec": "/tmp/d-11735-26702-1owskha/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-116103-10178-rfmlzx/package.tgz",
+  "_resolved": "file:../d-11735-26702-1owskha/package.tgz",
   "_shasum": "190f0d20a21afac1afebff43e6a7784571a19b18",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-116103-10178-rfmlzx/package.tgz",
-  "_where": "/tmp/apm-install-dir-116103-10178-14ijwrr",
+  "_spec": "/tmp/d-11735-26702-1owskha/package.tgz",
+  "_where": "/tmp/apm-install-dir-11735-26702-74hdos",
   "bugs": {
     "url": "https://github.com/mehcode/atom-project-plus/issues"
   },

@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161121-3032-7rm81o\\package.tgz",
+        "raw": "/tmp/d-11735-26343-1w0bhhr/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161121-3032-7rm81o\\package.tgz",
-        "spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161121-3032-7rm81o\\package.tgz",
+        "rawSpec": "/tmp/d-11735-26343-1w0bhhr/package.tgz",
+        "spec": "/tmp/d-11735-26343-1w0bhhr/package.tgz",
         "type": "local"
       },
-      "C:\\Users\\memuller\\AppData\\Local\\Temp\\apm-install-dir-1161121-3032-14xwptf"
+      "/tmp/apm-install-dir-11735-26343-1svy5qf"
     ]
   ],
-  "_from": "..\\d-1161121-3032-7rm81o\\package.tgz",
-  "_id": "ariake-dark-syntax@0.0.6",
+  "_from": "../d-11735-26343-1w0bhhr/package.tgz",
+  "_id": "ariake-dark-syntax@0.1.3",
   "_inCache": true,
   "_installable": true,
   "_location": "/ariake-dark-syntax",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161121-3032-7rm81o\\package.tgz",
+    "raw": "/tmp/d-11735-26343-1w0bhhr/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161121-3032-7rm81o\\package.tgz",
-    "spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161121-3032-7rm81o\\package.tgz",
+    "rawSpec": "/tmp/d-11735-26343-1w0bhhr/package.tgz",
+    "spec": "/tmp/d-11735-26343-1w0bhhr/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:..\\d-1161121-3032-7rm81o\\package.tgz",
-  "_shasum": "e6b2cda2cb5bdbc51462c1618c566a529d9ea0ad",
+  "_resolved": "file:../d-11735-26343-1w0bhhr/package.tgz",
+  "_shasum": "e260406610ffdf0954195761d1b54acb5adb8718",
   "_shrinkwrap": null,
-  "_spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-1161121-3032-7rm81o\\package.tgz",
-  "_where": "C:\\Users\\memuller\\AppData\\Local\\Temp\\apm-install-dir-1161121-3032-14xwptf",
+  "_spec": "/tmp/d-11735-26343-1w0bhhr/package.tgz",
+  "_where": "/tmp/apm-install-dir-11735-26343-1svy5qf",
   "bugs": {
     "url": "https://github.com/pathtrk/ariake-dark-syntax/issues"
   },
@@ -43,7 +43,7 @@
   "description": "A dark blue syntax theme inspired by Japan colors and the poetry.",
   "devDependencies": {},
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=1.13.0"
   },
   "homepage": "https://github.com/pathtrk/ariake-dark-syntax#readme",
   "keywords": [
@@ -62,5 +62,5 @@
     "url": "git+https://github.com/pathtrk/ariake-dark-syntax.git"
   },
   "theme": "syntax",
-  "version": "0.0.6"
+  "version": "0.1.3"
 }
