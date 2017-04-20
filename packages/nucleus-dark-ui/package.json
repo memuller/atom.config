@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-117312-22040-11ac0k7/package.tgz",
+        "raw": "/tmp/d-117320-20514-554u8h/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-117312-22040-11ac0k7/package.tgz",
-        "spec": "/tmp/d-117312-22040-11ac0k7/package.tgz",
+        "rawSpec": "/tmp/d-117320-20514-554u8h/package.tgz",
+        "spec": "/tmp/d-117320-20514-554u8h/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-117312-22040-16fq9uk"
+      "/tmp/apm-install-dir-117320-20514-n46bi6"
     ]
   ],
-  "_from": "../d-117312-22040-11ac0k7/package.tgz",
-  "_id": "nucleus-dark-ui@0.11.13",
+  "_from": "../d-117320-20514-554u8h/package.tgz",
+  "_id": "nucleus-dark-ui@0.11.17",
   "_inCache": true,
   "_installable": true,
   "_location": "/nucleus-dark-ui",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-117312-22040-11ac0k7/package.tgz",
+    "raw": "/tmp/d-117320-20514-554u8h/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-117312-22040-11ac0k7/package.tgz",
-    "spec": "/tmp/d-117312-22040-11ac0k7/package.tgz",
+    "rawSpec": "/tmp/d-117320-20514-554u8h/package.tgz",
+    "spec": "/tmp/d-117320-20514-554u8h/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-117312-22040-11ac0k7/package.tgz",
-  "_shasum": "a504594f750cf11a8ba052cf1e839610302c1491",
+  "_resolved": "file:../d-117320-20514-554u8h/package.tgz",
+  "_shasum": "2a81612e5a0c8d197b2f37774b0eb021eca672db",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-117312-22040-11ac0k7/package.tgz",
-  "_where": "/tmp/apm-install-dir-117312-22040-16fq9uk",
+  "_spec": "/tmp/d-117320-20514-554u8h/package.tgz",
+  "_where": "/tmp/apm-install-dir-117320-20514-n46bi6",
   "bugs": {
     "url": "https://github.com/ignism/nucleus-dark-ui/issues"
   },
@@ -61,5 +61,5 @@
     "url": "git+https://github.com/ignism/nucleus-dark-ui.git"
   },
   "theme": "ui",
-  "version": "0.11.13"
+  "version": "0.11.17"
 }

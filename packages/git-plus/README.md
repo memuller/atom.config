@@ -50,8 +50,8 @@ _Commands are accessible for keybindings by dasherizing the command title._
 | `Git Add All Commit And Push` | Commit all changes and push to a remote repo. | `Cmd-Shift-A P` |
 | `Git Commit Amend` | Amend the previous commit. |  |
 | `Git Checkout Current File` | Undo changes and reset the current file to HEAD. | |
-| `Git Checkout `*`[ref]`* | Change to another ref (branch or tag). | |
-| `Git Checkout New branch` | Create a new branch. | |
+| `Git Checkout `*`[ref]`* | Change to another ref (branch or tag). | `Click` on status bar branch indicator. |
+| `Git Checkout New branch` | Create a new branch. | `Alt-Click` (by default) or right click on status bar branch indicator. |
 | `Git Diff [All]` | Show the diff for the current file, or all files. The diff can either be against the staged or un-staged tree, as selected in the options. | |
 | `Git Diff Branches` | Show the diff for the current branch all files against another branch. | |
 | `Git Diff Branche Files` | Show the diff for the current branch file against another branch version. | |
@@ -61,6 +61,11 @@ _Commands are accessible for keybindings by dasherizing the command title._
 | `Git Show` | Show the specified object, for example `HEAD`, `HEAD~2`,`3925a0d`, `origin/master` or `v2.7.3`. | |
 | `Git Open Changed Files` | Open tabs with all added, modified or renamed files. | |
 | `Git Tags` | Operate on tags individually. There are options to add, show, push, checkout, verify, and delete. | |
+
+### Select lists that allow selecting multiple options
+Commands like `Stage hunk` and `Cherry-Pick` provide a list with the ability to select multiple options.
+In this view, there are 'cancel' and 'apply/complete' buttons. The `esc` key can be used to cancel and
+the 'confirm' option can be invoked with `shift-enter` or `ctrl-enter`.
 
 ### Commit Window
 To change where the commit window appears go to settings and find

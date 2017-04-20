@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-11735-26454-ppayz1/package.tgz",
+        "raw": "/tmp/d-117313-27519-1whodpx/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-11735-26454-ppayz1/package.tgz",
-        "spec": "/tmp/d-11735-26454-ppayz1/package.tgz",
+        "rawSpec": "/tmp/d-117313-27519-1whodpx/package.tgz",
+        "spec": "/tmp/d-117313-27519-1whodpx/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-11735-26454-hbusq8"
+      "/tmp/apm-install-dir-117313-27519-buyw2b"
     ]
   ],
-  "_from": "../d-11735-26454-ppayz1/package.tgz",
-  "_id": "flatwhite-syntax@0.8.0",
+  "_from": "../d-117313-27519-1whodpx/package.tgz",
+  "_id": "flatwhite-syntax@0.8.1",
   "_inCache": true,
   "_installable": true,
   "_location": "/flatwhite-syntax",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-11735-26454-ppayz1/package.tgz",
+    "raw": "/tmp/d-117313-27519-1whodpx/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-11735-26454-ppayz1/package.tgz",
-    "spec": "/tmp/d-11735-26454-ppayz1/package.tgz",
+    "rawSpec": "/tmp/d-117313-27519-1whodpx/package.tgz",
+    "spec": "/tmp/d-117313-27519-1whodpx/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-11735-26454-ppayz1/package.tgz",
-  "_shasum": "5ecf08fa12f2d3b4c8b25704b6342da95ab80225",
+  "_resolved": "file:../d-117313-27519-1whodpx/package.tgz",
+  "_shasum": "7070872b67bd210ef441784b22fe10fe813b46de",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-11735-26454-ppayz1/package.tgz",
-  "_where": "/tmp/apm-install-dir-11735-26454-hbusq8",
+  "_spec": "/tmp/d-117313-27519-1whodpx/package.tgz",
+  "_where": "/tmp/apm-install-dir-117313-27519-buyw2b",
   "bugs": {
     "url": "https://github.com/biletskyy/flatwhite-syntax/issues"
   },
@@ -64,5 +64,5 @@
     "url": "git+https://github.com/biletskyy/flatwhite-syntax.git"
   },
   "theme": "syntax",
-  "version": "0.8.0"
+  "version": "0.8.1"
 }

@@ -12,6 +12,8 @@
       blendTabs: true
       compactList: true
     ui: {}
+  "atom-package-deps":
+    ignored: []
   "config-import-export":
     defaultPath:
       darwin: ""
@@ -26,8 +28,8 @@
     ]
     telemetryConsent: "limited"
     themes: [
-      "atom-material-ui"
-      "seti-syntax"
+      "nucleus-dark-ui"
+      "base16-tomorrow-dark-theme"
     ]
   editor:
     fontFamily: "Fira Code"
