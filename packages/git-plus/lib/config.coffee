@@ -78,7 +78,7 @@ module.exports =
         order: 2
         title: "Word diff"
         type: "boolean"
-        default: true
+        default: false
         description: "Should diffs be generated with the `--word-diff` flag?"
       syntaxHighlighting:
         order: 3
@@ -118,8 +118,17 @@ module.exports =
         type: "boolean"
         default: false
         description: "If false, it defaults to current branch upstream"
-  experimental:
+  tags:
     order: 6
+    type: "object"
+    properties:
+      signTags:
+        title: "Sign git tags with GPG"
+        type: "boolean"
+        default: false
+        description: "Use a GPG key to sign Git tags"
+  experimental:
+    order: 7
     type: "object"
     properties:
       stageFilesBeta:

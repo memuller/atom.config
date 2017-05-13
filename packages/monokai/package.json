@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-11735-26635-fbbz7q/package.tgz",
+        "raw": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-11748-478324-1xnh7ta.elkd18aor\\package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-11735-26635-fbbz7q/package.tgz",
-        "spec": "/tmp/d-11735-26635-fbbz7q/package.tgz",
+        "rawSpec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-11748-478324-1xnh7ta.elkd18aor\\package.tgz",
+        "spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-11748-478324-1xnh7ta.elkd18aor\\package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-11735-26635-wb3svp"
+      "C:\\Users\\memuller\\AppData\\Local\\Temp\\apm-install-dir-11748-478324-1a0482h.3hlrllerk9"
     ]
   ],
-  "_from": "../d-11735-26635-fbbz7q/package.tgz",
-  "_id": "monokai@0.22.0",
+  "_from": "..\\d-11748-478324-1xnh7ta.elkd18aor\\package.tgz",
+  "_id": "monokai@0.24.0",
   "_inCache": true,
   "_installable": true,
   "_location": "/monokai",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-11735-26635-fbbz7q/package.tgz",
+    "raw": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-11748-478324-1xnh7ta.elkd18aor\\package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-11735-26635-fbbz7q/package.tgz",
-    "spec": "/tmp/d-11735-26635-fbbz7q/package.tgz",
+    "rawSpec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-11748-478324-1xnh7ta.elkd18aor\\package.tgz",
+    "spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-11748-478324-1xnh7ta.elkd18aor\\package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-11735-26635-fbbz7q/package.tgz",
-  "_shasum": "c294088c9fe1c46d1ee61424dd4115d7974b001a",
+  "_resolved": "file:..\\d-11748-478324-1xnh7ta.elkd18aor\\package.tgz",
+  "_shasum": "7efb452093a60ef4f25d0232d6b4c95d98a333e1",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-11735-26635-fbbz7q/package.tgz",
-  "_where": "/tmp/apm-install-dir-11735-26635-wb3svp",
+  "_spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-11748-478324-1xnh7ta.elkd18aor\\package.tgz",
+  "_where": "C:\\Users\\memuller\\AppData\\Local\\Temp\\apm-install-dir-11748-478324-1a0482h.3hlrllerk9",
   "bugs": {
     "url": "https://github.com/kevinsawicki/monokai/issues"
   },
@@ -50,12 +50,12 @@
   "name": "monokai",
   "optionalDependencies": {},
   "private": true,
-  "readme": "# Monokai theme\n\nA monokai syntax theme for Atom.\n\nOriginally converted from the [TextMate](http://www.monokai.nl/blog/wp-content/asdev/Monokai.tmTheme)\ntheme using the [TextMate bundle converter](http://atom.io/docs/latest/converting-a-text-mate-theme).\n\n![](https://f.cloud.github.com/assets/671378/2265671/d02ebee8-9e85-11e3-9b8c-12b2cb7015e3.png)\n",
+  "readme": "# Monokai theme\n\nA monokai syntax theme for Atom.\n\nOriginally converted from the [TextMate](http://www.monokai.nl/blog/wp-content/asdev/Monokai.tmTheme)\ntheme using the [TextMate bundle converter](http://flight-manual.atom.io/hacking-atom/sections/converting-from-textmate/).\n\n![](https://f.cloud.github.com/assets/671378/2265671/d02ebee8-9e85-11e3-9b8c-12b2cb7015e3.png)\n",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kevinsawicki/monokai.git"
   },
   "theme": "syntax",
-  "version": "0.22.0"
+  "version": "0.24.0"
 }

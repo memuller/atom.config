@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-117310-17860-11ob6ar/package.tgz",
+        "raw": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117328-272464-kibeot.ujj1m26gvi\\package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-117310-17860-11ob6ar/package.tgz",
-        "spec": "/tmp/d-117310-17860-11ob6ar/package.tgz",
+        "rawSpec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117328-272464-kibeot.ujj1m26gvi\\package.tgz",
+        "spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117328-272464-kibeot.ujj1m26gvi\\package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-117310-17860-3ej79s"
+      "C:\\Users\\memuller\\AppData\\Local\\Temp\\apm-install-dir-117328-272464-1aj34if.doc2uzncdi"
     ]
   ],
-  "_from": "../d-117310-17860-11ob6ar/package.tgz",
-  "_id": "language-nginx@0.7.2",
+  "_from": "..\\d-117328-272464-kibeot.ujj1m26gvi\\package.tgz",
+  "_id": "language-nginx@0.7.3",
   "_inCache": true,
   "_installable": true,
   "_location": "/language-nginx",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-117310-17860-11ob6ar/package.tgz",
+    "raw": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117328-272464-kibeot.ujj1m26gvi\\package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-117310-17860-11ob6ar/package.tgz",
-    "spec": "/tmp/d-117310-17860-11ob6ar/package.tgz",
+    "rawSpec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117328-272464-kibeot.ujj1m26gvi\\package.tgz",
+    "spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117328-272464-kibeot.ujj1m26gvi\\package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-117310-17860-11ob6ar/package.tgz",
-  "_shasum": "9a249cf4f4eae7b3600db9a92ad940cc254ce4ae",
+  "_resolved": "file:..\\d-117328-272464-kibeot.ujj1m26gvi\\package.tgz",
+  "_shasum": "03be83fb9a5ad5087f8783f00c1101e4de4a27c1",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-117310-17860-11ob6ar/package.tgz",
-  "_where": "/tmp/apm-install-dir-117310-17860-3ej79s",
+  "_spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117328-272464-kibeot.ujj1m26gvi\\package.tgz",
+  "_where": "C:\\Users\\memuller\\AppData\\Local\\Temp\\apm-install-dir-117328-272464-1aj34if.doc2uzncdi",
   "bugs": {
     "url": "https://github.com/hnagato/atom-language-nginx/issues"
   },
@@ -55,5 +55,5 @@
     "type": "git",
     "url": "git+https://github.com/hnagato/atom-language-nginx.git"
   },
-  "version": "0.7.2"
+  "version": "0.7.3"
 }

@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-117320-7865-eodfd0/package.tgz",
+        "raw": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117326-10576-1lkx829.6xbog06bt9\\package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-117320-7865-eodfd0/package.tgz",
-        "spec": "/tmp/d-117320-7865-eodfd0/package.tgz",
+        "rawSpec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117326-10576-1lkx829.6xbog06bt9\\package.tgz",
+        "spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117326-10576-1lkx829.6xbog06bt9\\package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-117320-7865-16748b5"
+      "C:\\Users\\memuller\\AppData\\Local\\Temp\\apm-install-dir-117326-10576-pg3q4x.454uslwhfr"
     ]
   ],
-  "_from": "../d-117320-7865-eodfd0/package.tgz",
-  "_id": "atom-typescript@11.0.2",
+  "_from": "..\\d-117326-10576-1lkx829.6xbog06bt9\\package.tgz",
+  "_id": "atom-typescript@11.0.3",
   "_inCache": true,
   "_installable": true,
   "_location": "/atom-typescript",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-117320-7865-eodfd0/package.tgz",
+    "raw": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117326-10576-1lkx829.6xbog06bt9\\package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-117320-7865-eodfd0/package.tgz",
-    "spec": "/tmp/d-117320-7865-eodfd0/package.tgz",
+    "rawSpec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117326-10576-1lkx829.6xbog06bt9\\package.tgz",
+    "spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117326-10576-1lkx829.6xbog06bt9\\package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-117320-7865-eodfd0/package.tgz",
-  "_shasum": "af6c0dc168ade2537937e361e6d26541f2a2f9f2",
+  "_resolved": "file:..\\d-117326-10576-1lkx829.6xbog06bt9\\package.tgz",
+  "_shasum": "49df58dcb537633c6a29ad9a1cacb2e9c6f2a5d1",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-117320-7865-eodfd0/package.tgz",
-  "_where": "/tmp/apm-install-dir-117320-7865-16748b5",
+  "_spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117326-10576-1lkx829.6xbog06bt9\\package.tgz",
+  "_where": "C:\\Users\\memuller\\AppData\\Local\\Temp\\apm-install-dir-117326-10576-pg3q4x.454uslwhfr",
   "activationHooks": [
     "atom-typescript:grammar-used"
   ],
@@ -119,5 +119,5 @@
     "grammar": "ts-node scripts/grammar.ts",
     "test": "tsc --noEmit -p ./lib && tsc --noEmit -p ./scripts"
   },
-  "version": "11.0.2"
+  "version": "11.0.3"
 }

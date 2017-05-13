@@ -25,11 +25,12 @@
     autoHideMenuBar: true
     disabledPackages: [
       "terminal-plus"
+      "language-mongodb"
     ]
     telemetryConsent: "limited"
     themes: [
       "nucleus-dark-ui"
-      "base16-tomorrow-dark-theme"
+      "duotone-dark-earth-syntax"
     ]
   editor:
     fontFamily: "Fira Code"
@@ -40,10 +41,13 @@
   "git-plus":
     general:
       _analyticsUserId: "3ae3e266-0098-4e21-a9b6-fc62f1113e00"
+  "linter-ui-default":
+    showPanel: true
   pigments:
     notifyReloads: false
   "seti-ui":
     compactView: true
+    disableAnimations: true
     fileIcons: false
     themeColor: "Red"
   "terminal-plus":
