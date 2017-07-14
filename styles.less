@@ -1,32 +1,53 @@
 /*
  * Your Stylesheet
- *
- * This stylesheet is loaded when Atom starts up and is reloaded automatically
- * when it is changed and saved.
- *
- * Add your own CSS or Less to fully customize Atom.
- * If you are unfamiliar with Less, you can read more about it here:
- * http://lesscss.org
  */
 
-
-/*
- * Examples
- * (To see them, uncomment and save)
- */
-
-// style the background color of the tree view
-.tree-view {
-  // background-color: whitesmoke;
-}
-
-// style the background and foreground colors on the atom-text-editor-element itself
+// uses Fira Code.
 atom-text-editor {
-  // color: white;
-  // background-color: hsl(180, 24%, 12%);
+  font-family: 'Fira Code';
+  font-style: normal;
+  text-rendering: optimizeLegibility;
 }
 
-// To style other content in the text editor's shadow DOM, use the ::shadow expression
-atom-text-editor::shadow .cursor {
-  // border-color: red;
+atom-text-editor.editor {
+
+  // Disables font ligatures inside regexps and strings.
+  .syntax--string.syntax--quoted, .syntax--string.syntax--regexp {
+    -webkit-font-feature-settings: "liga" off, "calt" off;
+  }
+
+  // Displays a few textual elements using cursive font
+  .syntax--keyword.syntax--control,
+  .syntax--storage,
+  .syntax--jsx.syntax--entity.syntax--attribute-name
+  {
+    height: inherit;
+    vertical-align: baseline;
+    line-height: 1rem;
+
+    // Operator or FlottFlott - leave the one you want to use uncommented.
+
+    // Operator is great, but its license is expensive
+    font-family: 'Operator Mono';
+    font-size: 1rem;
+    font-style: italic;
+
+    // Flottflott is a free alternative that works well enough
+    // font-family: 'flottflott';
+    // font-style: normal !important;
+    // font-weight: normal;
+    // font-size: 1.6rem;
+  }
+
+  // arrows should still use Fira
+  .syntax--arrow {
+    font-family: inherit;
+    font-style: normal;
+    font-size: inherit;
+  }
+
+  // bolds all variable, method and class names
+  .syntax--name {
+    font-weight: bold;
+  }
 }
