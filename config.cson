@@ -1,12 +1,10 @@
 "*":
   "atom-material-ui":
     colors:
-      abaseColor: "#d13438"
-      accentColor: "#cefbfa"
-      predefinedColor: "Red"
+      abaseColor: "#607d8b"
+      predefinedColor: "Blue Grey"
     fonts: {}
     tabs:
-      compactTabs: true
       noTabMinWidth: true
     treeView:
       blendTabs: true
@@ -23,14 +21,15 @@
       win32: ""
   core:
     autoHideMenuBar: true
+    automaticallyUpdate: false
     disabledPackages: [
       "terminal-plus"
       "language-mongodb"
     ]
     telemetryConsent: "limited"
     themes: [
-      "nucleus-dark-ui"
-      "duotone-dark-earth-syntax"
+      "atom-material-ui"
+      "atom-material-syntax-dark"
     ]
   editor:
     fontFamily: "Fira Code"
@@ -41,10 +40,18 @@
   "git-plus":
     general:
       _analyticsUserId: "3ae3e266-0098-4e21-a9b6-fc62f1113e00"
+  "gruvbox-plus-syntax": {}
+  linter:
+    lintPreviewTabs: false
   "linter-ui-default":
-    showPanel: true
+    panelHeight: 81
   pigments:
     notifyReloads: false
+  "project-plus":
+    showPath: true
+  "seti-syntax":
+    dynamicColor: false
+    themeColor: "Steel"
   "seti-ui":
     compactView: true
     disableAnimations: true

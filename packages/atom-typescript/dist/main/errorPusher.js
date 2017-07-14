@@ -13,19 +13,38 @@ class ErrorPusher {
                 for (const [filePath, diagnostics] of fileErrors) {
                     const _filePath = utils_1.systemPath(filePath);
                     for (const diagnostic of diagnostics) {
+                        // Add a bit of extra validation that we have the necessary locations since linter v2
+                        // does not allow range-less messages anymore. This happens with configFileDiagnostics.
+                        let { start, end } = diagnostic;
+                        if (!start || !end) {
+                            start = end = { line: 1, offset: 1 };
+                        }
                         errors.push({
-                            type: this.unusedAsInfo && diagnostic.code === 6133 ? "Info" : "Error",
-                            text: diagnostic.text,
-                            filePath: _filePath,
-                            range: diagnostic.start ? utils_1.locationsToRange(diagnostic.start, diagnostic.end) : undefined
+                            severity: this.unusedAsInfo && diagnostic.code === 6133 ? "info" : "error",
+                            excerpt: diagnostic.text,
+                            location: {
+                                file: _filePath,
+                                position: utils_1.locationsToRange(start, end)
+                            },
                         });
                     }
                 }
             }
             if (this.linter) {
-                this.linter.setMessages(errors);
+                this.linter.setAllMessages(errors);
             }
         }, 100);
+    }
+    /** Return any errors that cover the given location */
+    getErrorsAt(filePath, loc) {
+        const result = [];
+        for (const prefixed of this.errors.values()) {
+            const errors = prefixed.get(filePath);
+            if (errors) {
+                result.push(...errors.filter(err => utils_1.isLocationInRange(loc, err)));
+            }
+        }
+        return result;
     }
     /** Set errors. Previous errors with the same prefix and filePath are going to be replaced */
     setErrors(prefix, filePath, errors) {
@@ -47,7 +66,7 @@ class ErrorPusher {
     /** Clear all errors */
     clear() {
         if (this.linter) {
-            this.linter.deleteMessages();
+            this.linter.clearMessages();
         }
     }
     setLinter(linter) {

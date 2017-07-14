@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117328-272416-1otxxrb.33b3i35wmi\\package.tgz",
+        "raw": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117420-280756-13nbwhp.0y4d2qehfr\\package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117328-272416-1otxxrb.33b3i35wmi\\package.tgz",
-        "spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117328-272416-1otxxrb.33b3i35wmi\\package.tgz",
+        "rawSpec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117420-280756-13nbwhp.0y4d2qehfr\\package.tgz",
+        "spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117420-280756-13nbwhp.0y4d2qehfr\\package.tgz",
         "type": "local"
       },
-      "C:\\Users\\memuller\\AppData\\Local\\Temp\\apm-install-dir-117328-272416-1j9tuzj.vqbcyds4i"
+      "C:\\Users\\memuller\\AppData\\Local\\Temp\\apm-install-dir-117420-280756-1v2kedc.yezn2ep14i"
     ]
   ],
-  "_from": "..\\d-117328-272416-1otxxrb.33b3i35wmi\\package.tgz",
-  "_id": "nucleus-dark-ui@0.12.1",
+  "_from": "..\\d-117420-280756-13nbwhp.0y4d2qehfr\\package.tgz",
+  "_id": "nucleus-dark-ui@0.12.3",
   "_inCache": true,
   "_installable": true,
   "_location": "/nucleus-dark-ui",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117328-272416-1otxxrb.33b3i35wmi\\package.tgz",
+    "raw": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117420-280756-13nbwhp.0y4d2qehfr\\package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117328-272416-1otxxrb.33b3i35wmi\\package.tgz",
-    "spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117328-272416-1otxxrb.33b3i35wmi\\package.tgz",
+    "rawSpec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117420-280756-13nbwhp.0y4d2qehfr\\package.tgz",
+    "spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117420-280756-13nbwhp.0y4d2qehfr\\package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:..\\d-117328-272416-1otxxrb.33b3i35wmi\\package.tgz",
-  "_shasum": "5072816ea04a96a855665cfc65deb0bcca7f7f94",
+  "_resolved": "file:..\\d-117420-280756-13nbwhp.0y4d2qehfr\\package.tgz",
+  "_shasum": "41f14844c2ae582bab548ae95ea7d2a275ac1ddd",
   "_shrinkwrap": null,
-  "_spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117328-272416-1otxxrb.33b3i35wmi\\package.tgz",
-  "_where": "C:\\Users\\memuller\\AppData\\Local\\Temp\\apm-install-dir-117328-272416-1j9tuzj.vqbcyds4i",
+  "_spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117420-280756-13nbwhp.0y4d2qehfr\\package.tgz",
+  "_where": "C:\\Users\\memuller\\AppData\\Local\\Temp\\apm-install-dir-117420-280756-1v2kedc.yezn2ep14i",
   "bugs": {
     "url": "https://github.com/ignism/nucleus-dark-ui/issues"
   },
@@ -61,5 +61,15 @@
     "url": "git+https://github.com/ignism/nucleus-dark-ui.git"
   },
   "theme": "ui",
-  "version": "0.12.1"
+  "version": "0.12.3",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
 }

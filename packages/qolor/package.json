@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-11735-26717-15mpnai/package.tgz",
+        "raw": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117520-283140-tclhh3.5qupk9ms4i\\package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-11735-26717-15mpnai/package.tgz",
-        "spec": "/tmp/d-11735-26717-15mpnai/package.tgz",
+        "rawSpec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117520-283140-tclhh3.5qupk9ms4i\\package.tgz",
+        "spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117520-283140-tclhh3.5qupk9ms4i\\package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-11735-26717-sw2vzs"
+      "C:\\Users\\memuller\\AppData\\Local\\Temp\\apm-install-dir-117520-283140-y8iwbm.awa70evcxr"
     ]
   ],
-  "_from": "../d-11735-26717-15mpnai/package.tgz",
-  "_id": "qolor@0.4.1",
+  "_from": "..\\d-117520-283140-tclhh3.5qupk9ms4i\\package.tgz",
+  "_id": "qolor@0.4.2",
   "_inCache": true,
   "_installable": true,
   "_location": "/qolor",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-11735-26717-15mpnai/package.tgz",
+    "raw": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117520-283140-tclhh3.5qupk9ms4i\\package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-11735-26717-15mpnai/package.tgz",
-    "spec": "/tmp/d-11735-26717-15mpnai/package.tgz",
+    "rawSpec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117520-283140-tclhh3.5qupk9ms4i\\package.tgz",
+    "spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117520-283140-tclhh3.5qupk9ms4i\\package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-11735-26717-15mpnai/package.tgz",
-  "_shasum": "844ef8dffee593f2e2df632288a728f27b846e5f",
+  "_resolved": "file:..\\d-117520-283140-tclhh3.5qupk9ms4i\\package.tgz",
+  "_shasum": "162e214b361c3175434671d774d016d9828c3554",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-11735-26717-15mpnai/package.tgz",
-  "_where": "/tmp/apm-install-dir-11735-26717-sw2vzs",
+  "_spec": "C:\\Users\\memuller\\AppData\\Local\\Temp\\d-117520-283140-tclhh3.5qupk9ms4i\\package.tgz",
+  "_where": "C:\\Users\\memuller\\AppData\\Local\\Temp\\apm-install-dir-117520-283140-y8iwbm.awa70evcxr",
   "bugs": {
     "url": "https://github.com/davidlgoldberg/qolor/issues"
   },
@@ -68,5 +68,74 @@
     "type": "git",
     "url": "git+https://github.com/davidlgoldberg/qolor.git"
   },
-  "version": "0.4.1"
+  "version": "0.4.2",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "charenc",
+        "version": "0.0.2",
+        "path": "node_modules\\charenc\\charenc.js"
+      },
+      {
+        "name": "crypt",
+        "version": "0.0.2",
+        "path": "node_modules\\crypt\\crypt.js"
+      },
+      {
+        "name": "is-buffer",
+        "version": "1.0.2",
+        "path": "node_modules\\is-buffer\\index.js"
+      },
+      {
+        "name": "md5",
+        "version": "2.0.0",
+        "path": "node_modules\\md5\\md5.js"
+      }
+    ],
+    "extensions": {
+      ".json": [
+        "coffeelint.json",
+        "node_modules\\charenc\\package.json",
+        "node_modules\\crypt\\package.json",
+        "node_modules\\is-buffer\\package.json",
+        "node_modules\\md5\\package.json",
+        "package.json"
+      ],
+      ".coffee": [
+        "lib\\qolor-view.coffee",
+        "lib\\qolor.coffee"
+      ],
+      ".js": [
+        "node_modules\\charenc\\charenc.js",
+        "node_modules\\charenc\\README.js",
+        "node_modules\\crypt\\crypt.js",
+        "node_modules\\is-buffer\\index.js",
+        "node_modules\\md5\\md5.js",
+        "node_modules\\md5\\test.js"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "",
+          "lib",
+          "spec"
+        ],
+        "dependencies": {
+          "md5": "2.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules\\md5"
+        ],
+        "dependencies": {
+          "charenc": "~ 0.0.1",
+          "crypt": "~ 0.0.1",
+          "is-buffer": "~ 1.0.2"
+        }
+      }
+    ]
+  }
 }

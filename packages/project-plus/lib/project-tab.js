@@ -1,7 +1,7 @@
 'use babel'
 
 import _ from 'underscore-plus'
-import util from './util'
+import * as util from './util'
 import providerManager from './provider-manager'
 
 export default
@@ -42,6 +42,8 @@ class ProjectTab {
       let nextIndex = this.index + offset
       if (nextIndex >= this.projects.length) {
         nextIndex = 0
+      } else if (nextIndex < 0) {
+        nextIndex = this.projects.length - 1
       }
 
       this.index = nextIndex
