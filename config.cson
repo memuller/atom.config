@@ -25,14 +25,18 @@
     disabledPackages: [
       "terminal-plus"
       "language-mongodb"
+      "emmet"
+      "git-control"
+      "linter-write-good"
     ]
     telemetryConsent: "limited"
     themes: [
-      "atom-material-ui"
-      "atom-material-syntax-dark"
+      "one-dark-ui"
+      "duotone-dark-sky-syntax"
     ]
   editor:
     fontFamily: "Fira Code"
+    fontSize: 15
     softWrap: true
   "exception-reporting":
     userId: "31cff278-29a4-424b-36fd-417c2e9afc6b"
@@ -44,9 +48,16 @@
   linter:
     lintPreviewTabs: false
   "linter-ui-default":
-    panelHeight: 81
+    panelHeight: 69
+  "metro-ui":
+    fullscreenStatusBar: true
+    theme: "Adaptive Dark"
+    themeAccentColor: "#744da9"
+  "one-dark-ui": {}
   pigments:
     notifyReloads: false
+  "pristine-ui":
+    fontSize: 13
   "project-plus":
     showPath: true
   "seti-syntax":
