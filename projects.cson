@@ -1,0 +1,84 @@
+[
+  {
+    title: "Danbooru Ruby Grabber"
+    paths: [
+      "~\\Repos\\danbooru-ruby-grabber"
+    ]
+    icon: "icon-desktop-download"
+  }
+  {
+    title: "Wallcomposer"
+    paths: [
+      "~\\Repos\\wallcomposer"
+    ]
+    icon: "icon-screen-full"
+  }
+  {
+    title: "Rpglib"
+    paths: [
+      "~\\Repos\\rpglib"
+      "~\\Repos\\scotch-react-todo"
+      "~\\Repos\\wallcomposer"
+    ]
+    icon: "icon-book"
+  }
+  {
+    title: "dotfiles"
+    paths: [
+      "~\\Repos\\dotfiles"
+    ]
+    icon: "icon-primitive-dot"
+  }
+  {
+    title: "Mtgcol"
+    paths: [
+      "~\\Repos\\mtgcol"
+    ]
+    icon: "icon-versions"
+  }
+  {
+    title: "memuller/jeancatanho WP"
+    paths: [
+      "~\\Repos\\memuller\\wp-content\\themes\\independent-jensm"
+      "~\\Repos\\memuller\\wp-content\\themes\\memuller"
+      "~\\Repos\\memuller\\wp-content\\plugins\\memuller"
+    ]
+    icon: "icon-organization"
+  }
+  {
+    title: "Wordpress"
+    paths: [
+      "~\\Repos\\wp\\wp-content\\plugins"
+      "~\\Repos\\wp\\wp-content\\themes"
+    ]
+    icon: "icon-info"
+  }
+  {
+    title: "Dogagility"
+    paths: [
+      "~\\Repos\\dogagility"
+    ]
+    icon: "icon-squirrel"
+  }
+  {
+    title: "UERJ"
+    paths: [
+      "~\\Repos\\uerj"
+    ]
+    icon: "icon-home"
+  }
+  {
+    title: "Stylish"
+    paths: [
+      "~\\Repos\\stylish"
+    ]
+    icon: "icon-paintcan"
+  }
+  {
+    title: "Server config"
+    paths: [
+      "~\\Repos\\nginx"
+    ]
+    icon: "icon-server"
+  }
+]
