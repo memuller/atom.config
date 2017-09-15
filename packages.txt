@@ -6,6 +6,8 @@ atom-material-syntax-dark
 atom-material-syntax-light
 atom-material-ui
 atom-monokai
+chester-atom-syntax
+chestnut-light-atom-syntax
 dash-syntax
 dash-ui
 duotone-dark-earth-syntax
@@ -16,7 +18,6 @@ emmet
 file-icons
 git-plus
 highlight-selected
-isotope-ui
 language-apache
 language-babel
 language-lua
@@ -25,7 +26,7 @@ loved-syntax
 metro-ui
 minimap
 monokai-seti
-now-syntax
+piatto-light-syntax
 pristine-ui
 project-manager
 pure-syntax
