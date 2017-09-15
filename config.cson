@@ -58,6 +58,8 @@
     notifyReloads: false
   "pristine-ui":
     fontSize: 13
+  "project-manager":
+    savePathsRelativeToHome: true
   "project-plus":
     showPath: true
   "seti-syntax":
